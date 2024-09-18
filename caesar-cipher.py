@@ -67,14 +67,16 @@ def format_output(plaintext_message, key):
     decrypted_message = decrypt_message(encrypted_bytes, key)
 
     # Format output
+    print("---------------------------------------------")
     print(f"\nOriginal Message: {plaintext_message}")
     print(f"Key: {key}")
-    print(
-        "Please read the comments in the code \nas to why all of my characters in the \nEncrypted string are printable unlike the PDF's picture"
-    )
     print(f"Cipher Text: {encrypted_message_b64}")
     print(f"Cipher Text ASCII: {ascii_codes}")
     print(f"Deciphered Text: {decrypted_message}")
+    print("---------------------------------------------")
+    print(
+        "Please read the comments in the code. It will explain why my Encrypted string can print out all characters in human readable format unlike the PDF's output in the picture."
+    )
 
 
 def main():
