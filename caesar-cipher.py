@@ -68,14 +68,14 @@ def format_output(plaintext_message, key):
 
     # Format output
     print("---------------------------------------------")
-    print(f"\nOriginal Message: {plaintext_message}")
+    print(f"Original Message: {plaintext_message}")
     print(f"Key: {key}")
     print(f"Cipher Text: {encrypted_message_b64}")
     print(f"Cipher Text ASCII: {ascii_codes}")
     print(f"Deciphered Text: {decrypted_message}")
     print("---------------------------------------------")
     print(
-        "Please read the comments in the code. It will explain why my Encrypted string can print out all characters in human readable format unlike the PDF's output in the picture."
+        "Please read the comments in the code. It will explain why my encrypted string can print out all characters in human readable format unlike the PDF's output in the picture."
     )
 
 
